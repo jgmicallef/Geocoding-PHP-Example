@@ -7,7 +7,8 @@ $address = "100+Flinders+Street+Melbourne+VIC+3000";
 // Build our URL from the above...
 $base_url = "http://" . MAPS_HOST . "/maps/geo?q=" . $address . "&output=csv" . "&key=" . KEY;
 
-https://maps.google.com/maps/place/100+Flinders+Street+Melbourne+VIC+3000&output=csv&key=AIzaSyD7UHLbvkvihwHIQz9dbWuQmtjz4mWxfl0
+// Sample Built URL https://maps.google.com/maps/place/100+Flinders+Street+Melbourne+VIC+3000&output=csv&key=AIzaSyD7UHLbvkvihwHIQz9dbWuQmtjz4mWxfl0
+
 // Initalise CURL
 $c = curl_init();
 // Get the URL and save the Data
